@@ -1,30 +1,77 @@
 # Stallion Weather App
 
-A responsive weather web app that displays real-time, hourly, and daily forecasts.
-
-Tech Stack
-
-Next.js · TypeScript · React · Tailwind CSS · shadcn/ui · Framer Motion · MongoDB · OpenWeatherMap API
-
-Run Locally
-npm install
-npm run dev
+A modern, responsive web application that provides real-time weather information and forecasts using a clean, animated interface.
 
 
-Create a .env file:
-
-NEXT_PUBLIC_WEATHER_API_KEY=YOUR_API_KEY
-MONGODB_URI=YOUR_MONGODB_URI
-
-
-Open http://localhost:9002.
 
 Features
 
-Real-time weather & forecasts
+Real-time weather data (temperature, humidity, wind, sunrise & sunset)
 
-Location-based data (default: Yola, Nigeria)
+Hourly and daily forecasts
 
-Responsive UI with animations
+Location-based weather (default: Yola, Nigeria)
 
-Weather data logging to MongoDB
+Automatic weather logging to MongoDB
+
+Fully responsive UI with smooth animations
+
+
+
+
+Tech Stack
+
+Next.js (App Router)
+
+TypeScript & React
+
+Tailwind CSS
+
+shadcn/ui
+
+Framer Motion
+
+MongoDB (Atlas)
+
+OpenWeatherMap API
+
+
+
+
+Getting Started
+1. Install dependencies
+npm install
+
+2. Configure environment variables
+
+Create a .env file:
+
+NEXT_PUBLIC_WEATHER_API_KEY=YOUR_OPENWEATHERMAP_API_KEY
+MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
+
+3. Run the app
+npm run dev
+
+
+Open http://localhost:9002 in your browser.
+
+
+
+Project Structure
+src/
+ ├─ app/          # Pages, layouts, server actions
+ ├─ components/   # UI and weather components
+ └─ lib/          # API and database utilities
+
+
+
+
+Future Enhancements
+
+Historical weather charts
+
+User-saved locations
+
+PWA support
+
+Smart outfit recommendations

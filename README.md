@@ -75,3 +75,5 @@ User-saved locations
 PWA support
 
 Smart outfit recommendations
+
+NOTE: ⚠️ `.env` files are excluded from version control.
